@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Latihan Perulangan</title>
+  </head>
+  <body>
+    <h2>Daftar Teman Sekelas</h2>
+    <ul id="daftar-matkul"></ul>
+    <script>
+      var matkul = ["Ayu", "Mira", "Nurita", "Zulfa", "Herna"];
+      var daftarElement = document.getElementById("daftar-matkul");
+      for (let i = 0; i < matkul.length; i++) {
+        daftarElement.innerHTML += "<li>" + matkul[i] + "</li>";
+      }
+    </script>
+  </body>
+  </html>
